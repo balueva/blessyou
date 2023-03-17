@@ -182,7 +182,7 @@ const SingInfo = ({ setIsAuth }) => {
                 <Grid item container className={classes.logInGridItemButton}>
                 <Grid item>
                   <Button type="submit" className={classes.logInButton}>
-                    ЗАРЕГИСТРИРОВАТЬСЯ
+                    ОБНОВИТЬ ИНФОРМАЦИЮ
                   </Button>
                 </Grid>
               </Grid>
