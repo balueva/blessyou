@@ -52,6 +52,15 @@ const useStyles = makeStyles((theme) => ({
     lineHeight: "30px",
   },
 
+  logInGridItemButtonTypographyClone: {
+    alignSelf: "flex",
+    color: "#676767",
+    opacity: "0.8",
+    fontSize: "16px",
+    lineHeight: "30px",
+    margin: "50px 0",
+  },
+
   logInInput: {
     width: "452px",
     // height: "64px",

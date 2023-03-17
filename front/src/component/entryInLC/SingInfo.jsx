@@ -81,6 +81,7 @@ const SingInfo = ({ setIsAuth }) => {
     }
     setValid(false);
   }
+  
   return (
     <>
       <Box className={classes.logInContainer}>
@@ -173,10 +174,15 @@ const SingInfo = ({ setIsAuth }) => {
                   }}
                 />
               </Grid>
-              <Grid item container className={classes.logInGridItemButton}>
+              <Grid item className={classes.logInGridItemButtonTypographyClone}>
+                  <Typography>
+                     Хотите изменить пароль? 
+                  </Typography>
+                </Grid>
+                <Grid item container className={classes.logInGridItemButton}>
                 <Grid item>
                   <Button type="submit" className={classes.logInButton}>
-                    ЗАРЕГИСТРИРОВАТЬСЯ
+                    ОБНОВИТЬ ИНФОРМАЦИЮ
                   </Button>
                 </Grid>
               </Grid>

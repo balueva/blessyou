@@ -5,7 +5,6 @@ import SingInfo from "../entryInLC/SingInfo"
 
 
 
-
 export const PatientProfile = () => {
   const classes = useStyles();
   const { doctorArray } = useContext(DataContext);

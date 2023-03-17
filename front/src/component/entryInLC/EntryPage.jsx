@@ -9,7 +9,7 @@ import {
 } from "@material-ui/core";
 import useStyles from "./styles";
 import LogIn from "./LogIn";
-import SingIn from "./SingIn";
+import SingInfo from "./SingInfo";
 import { apiRequest } from "../../api";
 import ModalWindow from "../commonComponents/modalWindow/ModalWindow";
 
@@ -39,7 +39,7 @@ const EntryPage = ({ setIsAuth }) => {
         </Container>
       </Box>
       <LogIn setIsAuth={setIsAuth} handleOpen={handleOpen} />
-      <SingIn setIsAuth={setIsAuth} handleOpen={handleOpen} />
+      <SingInfo setIsAuth={setIsAuth} handleOpen={handleOpen} />
       <ModalWindow
         open={open}
         onClose={handleClose}

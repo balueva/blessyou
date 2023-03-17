@@ -1,1 +1,1 @@
-export * from "./patientProfile";
+export * from "../patientProfile/patientProfile";
